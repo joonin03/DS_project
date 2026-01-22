@@ -26,5 +26,5 @@ Google의 의료 특화 LLM인 **TxGemma-9b**와 **RAG(Retrieval-Augmented Gener
 ### 1. Prerequisites
 필요한 라이브러리를 설치합니다.
 ```bash
-pip install -U transformers langchain langchain-community langchain-huggingface
+pip install -U transformers langchain langchain-community langchain-huggingface datasets
 pip install sentence-transformers chromadb accelerate bitsandbytes pdfplumber rank_bm25
