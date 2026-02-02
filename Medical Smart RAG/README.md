@@ -35,7 +35,7 @@
 
 | Category | Technology | Description |
 | :--- | :--- | :--- |
-| **LLM** | [google/txgemma-9b-chat](https://huggingface.co/google/txgemma-9b-chat) | 답변 생성 (4-bit Quantization applied) |
+| **LLM** | [google/txgemma-27b-chat](https://huggingface.co/google/txgemma-27b-chat) | 답변 생성 (4-bit Quantization applied) |
 | **Frontend** | **Gradio** | 대화형 웹 인터페이스 및 파일 처리 |
 | **Embedding** | jhgan/ko-sroberta-multitask | 한국어 문장 임베딩 생성 |
 | **Reranker** | [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3) | 검색 결과 재순위화 (Cross-Encoder) |
