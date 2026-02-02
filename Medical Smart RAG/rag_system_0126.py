@@ -44,14 +44,11 @@ logging.basicConfig(
 logger = logging.getLogger("MedicalRAG")
 
 
-# hf_token = userdata.get('HF_TOKEN')
-# login(hf_token)
-
 @dataclass
 class AppConfig:
     """애플리케이션 설정 (Configuration)"""
     # Model config
-    llm_model_id: str = "google/txgemma-9b-chat"
+    llm_model_id: str ="google/txgemma-27b-chat"
     embedding_model_id: str = "jhgan/ko-sroberta-multitask"
     reranker_model_id: str = "BAAI/bge-reranker-v2-m3"
 
