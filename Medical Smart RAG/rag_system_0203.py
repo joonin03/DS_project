@@ -11,7 +11,7 @@ Original file is located at
 !pip install sentence-transformers chromadb accelerate bitsandbytes pdfplumber rank_bm25 gradio
 
 from huggingface_hub import login
-login("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")
+login()
 
 # -*- coding: utf-8 -*-
 import os
